@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<title>Angular vezba</title>
+<link href="st.css" rel="stylesheet">
+<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="row" ui-view="navbar"></div>
+	<div class="row" ui-view="main"></div>
+</div>
+
+<script src="App/app.module.js"></script>
+<script src="App/Components/Core/core.module.js"></script>
+<script src="App/Components/Core/core.route.js"></script>
+<script src="App/Components/Core/sidebar.controller.js"></script>
+<script src="App/Components/Core/Mark.controller.js"></script>
+
+</body>
+
+</html>

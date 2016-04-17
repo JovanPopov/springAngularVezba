@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [16/Apr/2016:21:16:35 +0200] "GET /rest/api/car HTTP/1.1" 406 1067 http-bio-8080-exec-1 189
+0:0:0:0:0:0:0:1 - - [16/Apr/2016:21:16:37 +0200] "GET /rest/api/car HTTP/1.1" 406 1067 http-bio-8080-exec-2 3
+0:0:0:0:0:0:0:1 - - [16/Apr/2016:21:16:41 +0200] "GET /rest/api/info HTTP/1.1" 200 12 http-bio-8080-exec-3 7
